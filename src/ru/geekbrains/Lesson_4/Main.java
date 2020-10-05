@@ -14,7 +14,7 @@ public class Main {
     static void play(Scanner scanner, Random random) {
         System.out.println("Введите длину поля (больше 2):");
         int size = scanner.nextInt();
-        char[][] field = getField(size); //ЗАДАНИЕ №3
+        char[][] field = getField(size); //ЗАДАНИЕ №3.
         drawField(field);
 
         do {
